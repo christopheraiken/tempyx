@@ -4,7 +4,7 @@ Bare bones jupyter alternative for finding and tracking lows in healpix data, to
 
 It's very rough - needs some love from someone who knows weather systems - but the underlying algorithm seems to be pretty quick.
 
-The strategy is to first locate local minima in presure, which can be done quickly in healpix.  Then apply filters to just these points.
+The strategy is to first locate local minima in surface pressure, which can be done quickly in healpix.  Then apply whatever filters to just these points.
 
 The detection and tracking is all done in healpix pixels.  You convert to lat/lon at the end.
 
