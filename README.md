@@ -10,7 +10,8 @@ The detection and tracking is all done in healpix pixels.  You convert to lat/lo
 
 The way I've done it is to detect and track at low zooms and then analyse at high zooms.  You can then adjust the track using the hi res data if necessary.  It should also work for detection straight at high zoom.  Unsure which way would be quicker.
 
-![image](https://github.com/user-attachments/assets/c6a973d4-1a03-44c5-aa14-a9deeb3b95f2)
+![image](https://github.com/user-attachments/assets/43a91719-947d-474e-b247-3d175ba39642)
+
 
 The test data was produced by the UK Met Office.  Their blurb: 
 A group of experiments have been conducted using the Met Office Unified Model (MetUM) with a focus on the DYAMOND-3 period (Jan 2020-Feb 2021). While this experiments include standalone explicit convection global simulations we have also developed a cyclic tropical channel and include limited area model simulations to build our understanding of how resolving smaller-scale processes feeds back on to the large-scale atmospheric circulation.
