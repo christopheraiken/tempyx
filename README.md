@@ -8,7 +8,7 @@ The strategy is to first locate local minima in surface pressure, which can be d
 
 The detection and tracking is all done in healpix pixels.  You convert to lat/lon at the end.
 
-The way I've done it is to detect and track at low zooms and then analyse at high zooms.  You can then adjust the track using the hi res data if necessary.  It should also work for detection straight at high zoom.  Unsure which way would be quicker.
+The way I've done it is to detect and track at low zooms and then analyse at high zooms.  You can then adjust the track using the hi res data if necessary.  It should also work for detection straight at high zoom.
 
 ![image](https://github.com/user-attachments/assets/43a91719-947d-474e-b247-3d175ba39642)
 
