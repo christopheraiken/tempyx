@@ -2,7 +2,7 @@
 
 Bare bones jupyter alternative for finding and tracking lows in healpix data, to avoid having to export to netcdf and use tempestExtremes (etc).
 
-It's very rough - needs some love from someone who knows weather systems - but the underlying algorithm seems to be pretty quick.
+It's very rough - needs some love from someone who knows weather systems and python - but the underlying algorithm seems to be pretty quick.
 
 The strategy is to first locate local minima in surface pressure, which can be done quickly in healpix.  Then apply whatever filters to just these points.
 
