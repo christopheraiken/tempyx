@@ -10,7 +10,7 @@ The detection and tracking is all done in healpix pixels.  You convert to lat/lo
 
 The way I've done it is to detect and track at low zooms and then analyse at high zooms.  You can then adjust the track using the hi res data if necessary.  It should also work for detection straight at high zoom.
 
-![image](https://github.com/user-attachments/assets/43a91719-947d-474e-b247-3d175ba39642)
+![tempyx](https://github.com/user-attachments/assets/1c29107b-7cb2-43e0-91d8-cddfb72d7f04)
 
 
 The test data was produced by the UK Met Office.  Their blurb: 
